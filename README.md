@@ -19,3 +19,6 @@ print(1234);
 
 
 ```
+
+![](https://github.com/caamaledgar/documentationProjects/blob/main/RecyclerView/capturaRegistros.png)
+
