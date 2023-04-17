@@ -10,3 +10,8 @@ Esto es una prueba de Mark Down para la clase de intefaces gráficas de Usuario
 Esto es una prueba de Mark Down para la clase de intefaces gráficas de Usuario
 Esto es una prueba de Mark Down para la clase de intefaces gráficas de Usuario
 
+
+´´´´
+print("Hola Mundo");
+print(1234);
+´´´´
