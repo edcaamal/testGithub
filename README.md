@@ -20,5 +20,5 @@ print(1234);
 
 ```
 
-![](https://github.com/caamaledgar/documentationProjects/blob/main/RecyclerView/capturaRegistros.png)
+![](https://github.com/edcaamal/documentationProjects/blob/main/documentationProjects/AplicacionSwing/login.PNG?raw=true)
 
