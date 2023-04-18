@@ -38,6 +38,20 @@ Explicito
 
 ```
 
+## Poblamos nuentro ArrayList de objetos
+Se crea un método llenarMunicipio
+
+```
+    public static void llenarMunicipios(){
+        municipios.add(new Municipio(1, "Calinki"));
+        municipios.add(new Municipio(2, "Campeche"));
+        municipios.add(new Municipio(3, "Carmen"));
+        System.out.println(municipios);
+        
+    }
+```
+
+
 
 ![](https://github.com/edcaamal/documentationProjects/blob/main/documentationProjects/AplicacionSwing/login.PNG?raw=true)
 
