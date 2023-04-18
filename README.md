@@ -38,6 +38,14 @@ Explicito
 
 ```
 
+## Creamos un ArrayList de objetos
+
+```
+public class miClase {
+    static ArrayList<Municipio> municipios = new ArrayList<>();
+```
+
+
 ## Poblamos nuentro ArrayList de objetos
 Se crea un método llenarMunicipio
 
@@ -51,7 +59,19 @@ Se crea un método llenarMunicipio
     }
 ```
 
+## Métodos para eliminar e insertar
 
+```
+    public static void eliminarMunicipio(int id){
+        // TODO Validar que el registro exita
+        municipios.remove(id-1);
+    }
+    
+    public static void insertarMunicipio(int id, String nombre){
+        // TODO Validar que el registro no exista
+        municipios.add(new Municipio(id, nombre));
+    }
+```
 
 ![](https://github.com/edcaamal/documentationProjects/blob/main/documentationProjects/AplicacionSwing/login.PNG?raw=true)
 
