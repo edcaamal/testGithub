@@ -1,11 +1,19 @@
 package testgithub;
 
+import models.Municipio;
+
 public class TestGithub {
 
     public static void main(String[] args) {
-        System.out.println("Universidad Autonóma de Campeche");
-        System.out.println("Facultad de Ingeniería");
-        System.out.println("Ingeniería en Sistemas Computacionales");
+
+        Municipio calkini = new Municipio(1, "Calinki");
+        System.out.println(calkini.toString());
+        
+        Municipio campeche = new Municipio();
+        campeche.setId(2);
+        campeche.setNombre("Campeche");
+        System.out.println(campeche.toString());
+
     }
     
 }
