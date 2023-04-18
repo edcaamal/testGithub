@@ -73,5 +73,14 @@ Se crea un método llenarMunicipio
     }
 ```
 
+## Refactorizar la clase main y añadair los métodos del municipio a la clase correspondente
+
+```
+        llenarMunicipios();
+        listarMunicipiosForE();
+        eliminarMunicipio(3);
+        listarMunicipiosForI();
+```
+
 ![](https://github.com/edcaamal/documentationProjects/blob/main/documentationProjects/AplicacionSwing/login.PNG?raw=true)
 
