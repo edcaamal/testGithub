@@ -38,6 +38,14 @@ Explicito
 
 ```
 
+## Creamos un ArrayList de objetos
+
+```
+public class miClase {
+    static ArrayList<Municipio> municipios = new ArrayList<>();
+```
+
+
 ## Poblamos nuentro ArrayList de objetos
 Se crea un método llenarMunicipio
 
