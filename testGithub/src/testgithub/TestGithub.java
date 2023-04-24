@@ -1,17 +1,15 @@
 package testgithub;
 
-import java.util.ArrayList;
-import models.Municipio;
 import static models.Municipio.*;
+import views.Principal;
 
 public class TestGithub {
+    public static Principal principal = new Principal();
 
     public static void main(String[] args) {
-        llenarMunicipios();
-        listarMunicipiosForE();
-        eliminarMunicipio(3);
-        listarMunicipiosForI();
 
+        principal.setVisible(true);
+        principal.setLocationRelativeTo(null);
     }
     
 }
