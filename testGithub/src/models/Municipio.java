@@ -61,14 +61,19 @@ public class Municipio {
     }
     
     public static void eliminarMunicipio(int id){
-        // TODO Validar que el registro exita
-        municipios.remove(id-1);
+        municipios.remove(id);
     }
     
     public static void insertarMunicipio(int id, String nombre){
         // TODO Validar que el registro no exista
         municipios.add(new Municipio(id, nombre));
     }
+    
+   public static void actualizarMunicipio(int recNo, int id, String nombre){
+        municipios.get(recNo).setId(id);
+        municipios.get(recNo).setNombre(nombre);
+    }     
+    
     
     
 }
